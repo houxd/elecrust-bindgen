@@ -1,0 +1,21 @@
+[package]
+name = "elecrust-bindgen"
+version = "0.1.0"
+edition = "2024"
+description = "A bindgen for Elecrust"
+license = "MIT"
+repository = "https://github.com/houxd/elecrust-bindgen"
+homepage = "https://github.com/houxd/elecrust-bindgen"
+documentation = "https://docs.rs/elecrust-bindgen"
+keywords = ["embedded", "mcu", "no-std", "bindgen"]
+categories = ["no-std"]
+authors = ["houxd.g@gmail.com"]
+exclude = []
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+bindgen = "0.72"
+anyhow = "1.0"
+cc = "1.2.50"
